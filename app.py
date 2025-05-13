@@ -10,7 +10,7 @@ def chat():
     user_input = data.get("message", "").lower()
 
     if user_input == "hi":
-        return jsonify({"response": "Hello Kaela Ganda"})
+        return jsonify({"response": "Hello Kaela Ganda! "})
     else:
         return jsonify({"response": "Sorry, I don't understand."})
 
